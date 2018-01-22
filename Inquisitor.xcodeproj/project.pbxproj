@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4869C328C6CD31F57B3AFD /* Pods_Inquisitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B13DABA51D8D8D681922FF3 /* Pods_Inquisitor.framework */; };
+		B79D73FA8E192C5633820F6B /* Pods_InquisitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2981A91B6CEB70406E2D318 /* Pods_InquisitorTests.framework */; };
+		DA91C00EFC7C8DABDE09D783 /* Pods_InquisitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FA7363814CF964372EEC4E /* Pods_InquisitorUITests.framework */; };
+		E92A8E2C1FFC505500214087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92A8E2A1FFC505500214087 /* Main.storyboard */; };
+		E92A8E2E1FFC57C300214087 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92A8E2D1FFC57C300214087 /* settingsViewController.swift */; };
+		E96976611FFC4DD300F5701D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96976601FFC4DD300F5701D /* AppDelegate.swift */; };
+		E969766B1FFC4DD300F5701D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96976691FFC4DD300F5701D /* LaunchScreen.storyboard */; };
+		E96976761FFC4DD300F5701D /* InquisitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96976751FFC4DD300F5701D /* InquisitorTests.swift */; };
+		E96976811FFC4DD300F5701D /* InquisitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96976801FFC4DD300F5701D /* InquisitorUITests.swift */; };
+		E969768F1FFC4DE500F5701D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E969768E1FFC4DE500F5701D /* Assets.xcassets */; };
+		E96976911FFC4DF900F5701D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96976901FFC4DF800F5701D /* ViewController.swift */; };
+		E985E5AA2014F80700101263 /* numInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985E5A92014F80700101263 /* numInputViewController.swift */; };
+		E985E5AC2015408900101263 /* customInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985E5AB2015408900101263 /* customInputViewController.swift */; };
+		E985E5AF201558D300101263 /* chartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985E5AE201558D300101263 /* chartsViewController.swift */; };
+		E98FB3C5200ECE24003C1B65 /* consentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FB3C4200ECE24003C1B65 /* consentViewController.swift */; };
+		E98FB3C7200EF966003C1B65 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FB3C6200EF966003C1B65 /* Gradient.swift */; };
+		E9BC4685201463B20041DC9E /* momentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC4684201463B20041DC9E /* momentViewController.swift */; };
+		E9D4853D1FFD6D6C00E3B0EA /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D4853C1FFD6D6C00E3B0EA /* loginViewController.swift */; };
+		E9D4853F1FFD7BAB00E3B0EA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D4853E1FFD7BAB00E3B0EA /* TextField.swift */; };
+		E9D485401FFD7D7D00E3B0EA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D4853E1FFD7BAB00E3B0EA /* TextField.swift */; };
+		E9D485411FFD7D7E00E3B0EA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D4853E1FFD7BAB00E3B0EA /* TextField.swift */; };
+		E9D485431FFD887500E3B0EA /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D485421FFD887500E3B0EA /* signUpViewController.swift */; };
+		E9DACFEB1FFD636E0010049C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9DACFEA1FFD636E0010049C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96976721FFC4DD300F5701D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96976551FFC4DD300F5701D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969765C1FFC4DD300F5701D;
+			remoteInfo = Inquisitor;
+		};
+		E969767D1FFC4DD300F5701D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96976551FFC4DD300F5701D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E969765C1FFC4DD300F5701D;
+			remoteInfo = Inquisitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016C2E668F082B6CC6570989 /* Pods-InquisitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InquisitorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InquisitorUITests/Pods-InquisitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CBD9264B85267B2BB094CF0 /* Pods-InquisitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InquisitorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InquisitorTests/Pods-InquisitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34B3F6F70CDB516EBE357E49 /* Pods-Inquisitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inquisitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inquisitor/Pods-Inquisitor.release.xcconfig"; sourceTree = "<group>"; };
+		4168D04E4B7266C868E3C5D0 /* Pods-Inquisitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inquisitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inquisitor/Pods-Inquisitor.debug.xcconfig"; sourceTree = "<group>"; };
+		4B13DABA51D8D8D681922FF3 /* Pods_Inquisitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inquisitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B0B8ECD559C3D56F8BDDC8 /* Pods-InquisitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InquisitorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InquisitorUITests/Pods-InquisitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70FA7363814CF964372EEC4E /* Pods_InquisitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InquisitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2981A91B6CEB70406E2D318 /* Pods_InquisitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InquisitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92A8E2B1FFC505500214087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Taskflow-master 3/Taskflow/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		E92A8E2D1FFC57C300214087 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		E969765D1FFC4DD300F5701D /* Inquisitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inquisitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96976601FFC4DD300F5701D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E969766A1FFC4DD300F5701D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E969766C1FFC4DD300F5701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96976711FFC4DD300F5701D /* InquisitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InquisitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96976751FFC4DD300F5701D /* InquisitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquisitorTests.swift; sourceTree = "<group>"; };
+		E96976771FFC4DD300F5701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E969767C1FFC4DD300F5701D /* InquisitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InquisitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96976801FFC4DD300F5701D /* InquisitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquisitorUITests.swift; sourceTree = "<group>"; };
+		E96976821FFC4DD300F5701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E969768E1FFC4DE500F5701D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Taskflow-master/Inquisitor/Assets.xcassets"; sourceTree = "<group>"; };
+		E96976901FFC4DF800F5701D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Taskflow-master/Inquisitor/ViewController.swift"; sourceTree = "<group>"; };
+		E985E5A92014F80700101263 /* numInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numInputViewController.swift; sourceTree = "<group>"; };
+		E985E5AB2015408900101263 /* customInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customInputViewController.swift; sourceTree = "<group>"; };
+		E985E5AE201558D300101263 /* chartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsViewController.swift; sourceTree = "<group>"; };
+		E98FB3C4200ECE24003C1B65 /* consentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consentViewController.swift; sourceTree = "<group>"; };
+		E98FB3C6200EF966003C1B65 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		E9BC4684201463B20041DC9E /* momentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = momentViewController.swift; sourceTree = "<group>"; };
+		E9D4853C1FFD6D6C00E3B0EA /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E9D4853E1FFD7BAB00E3B0EA /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		E9D485421FFD887500E3B0EA /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		E9DACFEA1FFD636E0010049C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDB26B620069C812BC265279 /* Pods-InquisitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InquisitorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InquisitorTests/Pods-InquisitorTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E969765A1FFC4DD300F5701D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4869C328C6CD31F57B3AFD /* Pods_Inquisitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969766E1FFC4DD300F5701D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D73FA8E192C5633820F6B /* Pods_InquisitorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96976791FFC4DD300F5701D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA91C00EFC7C8DABDE09D783 /* Pods_InquisitorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E05C4CAB6763AABD2F82B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B13DABA51D8D8D681922FF3 /* Pods_Inquisitor.framework */,
+				A2981A91B6CEB70406E2D318 /* Pods_InquisitorTests.framework */,
+				70FA7363814CF964372EEC4E /* Pods_InquisitorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E96976541FFC4DD300F5701D = {
+			isa = PBXGroup;
+			children = (
+				E969765F1FFC4DD300F5701D /* Inquisitor */,
+				E96976741FFC4DD300F5701D /* InquisitorTests */,
+				E969767F1FFC4DD300F5701D /* InquisitorUITests */,
+				E969765E1FFC4DD300F5701D /* Products */,
+				FE16CC3B5356F8DE1C59CC7E /* Pods */,
+				5E05C4CAB6763AABD2F82B4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E969765E1FFC4DD300F5701D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E969765D1FFC4DD300F5701D /* Inquisitor.app */,
+				E96976711FFC4DD300F5701D /* InquisitorTests.xctest */,
+				E969767C1FFC4DD300F5701D /* InquisitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E969765F1FFC4DD300F5701D /* Inquisitor */ = {
+			isa = PBXGroup;
+			children = (
+				E985E5AD201558BA00101263 /* Input */,
+				E92A8E2A1FFC505500214087 /* Main.storyboard */,
+				E98FB3C4200ECE24003C1B65 /* consentViewController.swift */,
+				E9DACFEA1FFD636E0010049C /* GoogleService-Info.plist */,
+				E96976601FFC4DD300F5701D /* AppDelegate.swift */,
+				E96976691FFC4DD300F5701D /* LaunchScreen.storyboard */,
+				E969766C1FFC4DD300F5701D /* Info.plist */,
+				E969768E1FFC4DE500F5701D /* Assets.xcassets */,
+				E9D67E9F200EAD34005C01CF /* Util */,
+				E92A8E2D1FFC57C300214087 /* settingsViewController.swift */,
+				E985E5AE201558D300101263 /* chartsViewController.swift */,
+				E96976901FFC4DF800F5701D /* ViewController.swift */,
+				E9D67E9E200EAD29005C01CF /* Login */,
+			);
+			path = Inquisitor;
+			sourceTree = "<group>";
+		};
+		E96976741FFC4DD300F5701D /* InquisitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E96976751FFC4DD300F5701D /* InquisitorTests.swift */,
+				E96976771FFC4DD300F5701D /* Info.plist */,
+			);
+			path = InquisitorTests;
+			sourceTree = "<group>";
+		};
+		E969767F1FFC4DD300F5701D /* InquisitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E96976801FFC4DD300F5701D /* InquisitorUITests.swift */,
+				E96976821FFC4DD300F5701D /* Info.plist */,
+			);
+			path = InquisitorUITests;
+			sourceTree = "<group>";
+		};
+		E985E5AD201558BA00101263 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E985E5AB2015408900101263 /* customInputViewController.swift */,
+				E985E5A92014F80700101263 /* numInputViewController.swift */,
+				E9BC4684201463B20041DC9E /* momentViewController.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9D67E9E200EAD29005C01CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E9D485421FFD887500E3B0EA /* signUpViewController.swift */,
+				E9D4853C1FFD6D6C00E3B0EA /* loginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E9D67E9F200EAD34005C01CF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E9D4853E1FFD7BAB00E3B0EA /* TextField.swift */,
+				E98FB3C6200EF966003C1B65 /* Gradient.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FE16CC3B5356F8DE1C59CC7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4168D04E4B7266C868E3C5D0 /* Pods-Inquisitor.debug.xcconfig */,
+				34B3F6F70CDB516EBE357E49 /* Pods-Inquisitor.release.xcconfig */,
+				2CBD9264B85267B2BB094CF0 /* Pods-InquisitorTests.debug.xcconfig */,
+				EDB26B620069C812BC265279 /* Pods-InquisitorTests.release.xcconfig */,
+				67B0B8ECD559C3D56F8BDDC8 /* Pods-InquisitorUITests.debug.xcconfig */,
+				016C2E668F082B6CC6570989 /* Pods-InquisitorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E969765C1FFC4DD300F5701D /* Inquisitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96976851FFC4DD300F5701D /* Build configuration list for PBXNativeTarget "Inquisitor" */;
+			buildPhases = (
+				B9702CCA488B6659A6B361C7 /* [CP] Check Pods Manifest.lock */,
+				E96976591FFC4DD300F5701D /* Sources */,
+				E969765A1FFC4DD300F5701D /* Frameworks */,
+				E969765B1FFC4DD300F5701D /* Resources */,
+				D03D69B350227CE6AB055970 /* [CP] Embed Pods Frameworks */,
+				D7464B9A518D2025E3E2738E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inquisitor;
+			productName = Inquisitor;
+			productReference = E969765D1FFC4DD300F5701D /* Inquisitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96976701FFC4DD300F5701D /* InquisitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96976881FFC4DD300F5701D /* Build configuration list for PBXNativeTarget "InquisitorTests" */;
+			buildPhases = (
+				51930DADC5C65DFF39977D80 /* [CP] Check Pods Manifest.lock */,
+				E969766D1FFC4DD300F5701D /* Sources */,
+				E969766E1FFC4DD300F5701D /* Frameworks */,
+				E969766F1FFC4DD300F5701D /* Resources */,
+				99AE4B28C5BFCF4CE2F7A5D1 /* [CP] Embed Pods Frameworks */,
+				86E488BABA5D27394625D73C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96976731FFC4DD300F5701D /* PBXTargetDependency */,
+			);
+			name = InquisitorTests;
+			productName = InquisitorTests;
+			productReference = E96976711FFC4DD300F5701D /* InquisitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E969767B1FFC4DD300F5701D /* InquisitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E969768B1FFC4DD300F5701D /* Build configuration list for PBXNativeTarget "InquisitorUITests" */;
+			buildPhases = (
+				5A8B563E33D7C1FADCFBC8A9 /* [CP] Check Pods Manifest.lock */,
+				E96976781FFC4DD300F5701D /* Sources */,
+				E96976791FFC4DD300F5701D /* Frameworks */,
+				E969767A1FFC4DD300F5701D /* Resources */,
+				67D9EB009C99A62AC3BC7732 /* [CP] Embed Pods Frameworks */,
+				02853312BFDE596D1027FDF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E969767E1FFC4DD300F5701D /* PBXTargetDependency */,
+			);
+			name = InquisitorUITests;
+			productName = InquisitorUITests;
+			productReference = E969767C1FFC4DD300F5701D /* InquisitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96976551FFC4DD300F5701D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Carnegie;
+				TargetAttributes = {
+					E969765C1FFC4DD300F5701D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E96976701FFC4DD300F5701D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E969765C1FFC4DD300F5701D;
+					};
+					E969767B1FFC4DD300F5701D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E969765C1FFC4DD300F5701D;
+					};
+				};
+			};
+			buildConfigurationList = E96976581FFC4DD300F5701D /* Build configuration list for PBXProject "Inquisitor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E96976541FFC4DD300F5701D;
+			productRefGroup = E969765E1FFC4DD300F5701D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E969765C1FFC4DD300F5701D /* Inquisitor */,
+				E96976701FFC4DD300F5701D /* InquisitorTests */,
+				E969767B1FFC4DD300F5701D /* InquisitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E969765B1FFC4DD300F5701D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E969766B1FFC4DD300F5701D /* LaunchScreen.storyboard in Resources */,
+				E9DACFEB1FFD636E0010049C /* GoogleService-Info.plist in Resources */,
+				E969768F1FFC4DE500F5701D /* Assets.xcassets in Resources */,
+				E92A8E2C1FFC505500214087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969766F1FFC4DD300F5701D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969767A1FFC4DD300F5701D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02853312BFDE596D1027FDF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InquisitorUITests/Pods-InquisitorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51930DADC5C65DFF39977D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InquisitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8B563E33D7C1FADCFBC8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InquisitorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D9EB009C99A62AC3BC7732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InquisitorUITests/Pods-InquisitorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E488BABA5D27394625D73C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InquisitorTests/Pods-InquisitorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99AE4B28C5BFCF4CE2F7A5D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InquisitorTests/Pods-InquisitorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9702CCA488B6659A6B361C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inquisitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03D69B350227CE6AB055970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Inquisitor/Pods-Inquisitor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inquisitor/Pods-Inquisitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7464B9A518D2025E3E2738E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inquisitor/Pods-Inquisitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96976591FFC4DD300F5701D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E985E5AA2014F80700101263 /* numInputViewController.swift in Sources */,
+				E9D4853D1FFD6D6C00E3B0EA /* loginViewController.swift in Sources */,
+				E9BC4685201463B20041DC9E /* momentViewController.swift in Sources */,
+				E985E5AC2015408900101263 /* customInputViewController.swift in Sources */,
+				E98FB3C5200ECE24003C1B65 /* consentViewController.swift in Sources */,
+				E985E5AF201558D300101263 /* chartsViewController.swift in Sources */,
+				E96976911FFC4DF900F5701D /* ViewController.swift in Sources */,
+				E98FB3C7200EF966003C1B65 /* Gradient.swift in Sources */,
+				E9D485431FFD887500E3B0EA /* signUpViewController.swift in Sources */,
+				E96976611FFC4DD300F5701D /* AppDelegate.swift in Sources */,
+				E9D4853F1FFD7BAB00E3B0EA /* TextField.swift in Sources */,
+				E92A8E2E1FFC57C300214087 /* settingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969766D1FFC4DD300F5701D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96976761FFC4DD300F5701D /* InquisitorTests.swift in Sources */,
+				E9D485401FFD7D7D00E3B0EA /* TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96976781FFC4DD300F5701D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96976811FFC4DD300F5701D /* InquisitorUITests.swift in Sources */,
+				E9D485411FFD7D7E00E3B0EA /* TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96976731FFC4DD300F5701D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969765C1FFC4DD300F5701D /* Inquisitor */;
+			targetProxy = E96976721FFC4DD300F5701D /* PBXContainerItemProxy */;
+		};
+		E969767E1FFC4DD300F5701D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E969765C1FFC4DD300F5701D /* Inquisitor */;
+			targetProxy = E969767D1FFC4DD300F5701D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E92A8E2A1FFC505500214087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92A8E2B1FFC505500214087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E96976691FFC4DD300F5701D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E969766A1FFC4DD300F5701D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E96976831FFC4DD300F5701D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96976841FFC4DD300F5701D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96976861FFC4DD300F5701D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4168D04E4B7266C868E3C5D0 /* Pods-Inquisitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Inquisitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnegie.spark.Inquisitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96976871FFC4DD300F5701D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B3F6F70CDB516EBE357E49 /* Pods-Inquisitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Inquisitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnegie.spark.Inquisitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96976891FFC4DD300F5701D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBD9264B85267B2BB094CF0 /* Pods-InquisitorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InquisitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Carnegie.InquisitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inquisitor.app/Inquisitor";
+			};
+			name = Debug;
+		};
+		E969768A1FFC4DD300F5701D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB26B620069C812BC265279 /* Pods-InquisitorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InquisitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Carnegie.InquisitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inquisitor.app/Inquisitor";
+			};
+			name = Release;
+		};
+		E969768C1FFC4DD300F5701D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B0B8ECD559C3D56F8BDDC8 /* Pods-InquisitorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InquisitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Carnegie.InquisitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inquisitor;
+			};
+			name = Debug;
+		};
+		E969768D1FFC4DD300F5701D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016C2E668F082B6CC6570989 /* Pods-InquisitorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InquisitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Carnegie.InquisitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Inquisitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96976581FFC4DD300F5701D /* Build configuration list for PBXProject "Inquisitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96976831FFC4DD300F5701D /* Debug */,
+				E96976841FFC4DD300F5701D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96976851FFC4DD300F5701D /* Build configuration list for PBXNativeTarget "Inquisitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96976861FFC4DD300F5701D /* Debug */,
+				E96976871FFC4DD300F5701D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96976881FFC4DD300F5701D /* Build configuration list for PBXNativeTarget "InquisitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96976891FFC4DD300F5701D /* Debug */,
+				E969768A1FFC4DD300F5701D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E969768B1FFC4DD300F5701D /* Build configuration list for PBXNativeTarget "InquisitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E969768C1FFC4DD300F5701D /* Debug */,
+				E969768D1FFC4DD300F5701D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E96976551FFC4DD300F5701D /* Project object */;
+}

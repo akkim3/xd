@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>910061047752-dv2unrqub1fo3bvk274nbei76l72mt6a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.910061047752-dv2unrqub1fo3bvk274nbei76l72mt6a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBTNAe1rTrP7uazLS6LBAwBnr9dD9ZzYKQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>910061047752</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.carnegie.spark.Inquisitor</string>
+	<key>PROJECT_ID</key>
+	<string>inquisitor-1bf08</string>
+	<key>STORAGE_BUCKET</key>
+	<string>inquisitor-1bf08.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:910061047752:ios:e5b25794b5d3c90d</string>
+	<key>DATABASE_URL</key>
+	<string>https://inquisitor-1bf08.firebaseio.com</string>
+</dict>
+</plist>
